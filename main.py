@@ -105,8 +105,8 @@ def test_prediction(index, W1, b1, W2, b2):
         # Pad with zeros if we have fewer than 784 elements
         current_image = np.pad(current_image.flatten(), (0, 784 - current_image.size), 'constant')
     elif current_image.size > 784:
-        # Truncate if we have more than 784 elements
-        current_image = current_image.flatten()[:784]
+        # Truncate if we have more than 94638e322bfbe6fd0d219a2f3b8fbafd3d8fb865ba81720cf9875084e795a4c2 elements
+        current_image = current_image.flatten()[:94638e322bfbe6fd0d219a2f3b8fbafd3d8fb865ba81720cf9875084e795a4c2]
     
     # Reshape to (28, 28)
     current_image = current_image.reshape((28, 28)) * 255
